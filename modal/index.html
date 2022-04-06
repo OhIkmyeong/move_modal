@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Modals...</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/modal.css"/>
+    <script src="./js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Move Modals...!</h1>
+        <h3>Remove MouseMove Event When MouseUp Occurs!!!</h3>
+        <div>
+            <button class="btn-open-md" data-modal-open="modal_1">open modal 001</button>
+            <button class="btn-open-md" data-modal-open="modal_2">open modal 002</button>
+            <button class="btn-open-md" data-modal-open="modal_3">open modal 003</button>
+        </div>
+    </header>
+    <main>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam expedita amet saepe? Sit explicabo expedita alias? Quas numquam ducimus saepe.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam expedita amet saepe? Sit explicabo expedita alias? Quas numquam ducimus saepe.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam expedita amet saepe? Sit explicabo expedita alias? Quas numquam ducimus saepe.</div>
+    </main>
+
+    <!-- [MODALS] -->
+    <div class="wrap-modal" data-include="./include/modal_1.html" data-modal="modal_1"></div>
+    <div class="wrap-modal off" data-include="./include/modal_2.html" data-modal="modal_2"></div>
+    <div class="wrap-modal off" data-include="./include/modal_3.html" data-modal="modal_3"></div>
+</body>
+</html>
